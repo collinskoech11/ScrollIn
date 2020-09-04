@@ -1,8 +1,9 @@
 @import "compass/css3";
 
 *{
-  @include box-sizing(border-box); 
+  @includebox-sizing(border-box); 
 }
+
 
 section {
   background: #eee;
@@ -21,7 +22,7 @@ section {
   padding: 20px;
   margin-right: 4%;
   margin-bottom: 4%;
-  box-shadow: 0 1px 3px rgba(black, 0.2);
+  box-shadow: 0 1px 3px rgba(0,0,0, 0.2);
   &:nth-child(even) {
     margin-right: 0;
   }
